@@ -1,10 +1,10 @@
 {
-  "name": "ui_kit",
+  "name": "ui_kit_kit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +14,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
   },
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
